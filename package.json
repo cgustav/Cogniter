@@ -1,0 +1,37 @@
+{
+  "name": "cogniter-js",
+  "version": "0.0.1",
+  "description": "Library to improve development experience using aws cognito sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "ndev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgustav/Cogniter.git"
+  },
+  "keywords": [
+    "aws",
+    "userpool",
+    "cognito",
+    "sdk",
+    "federated",
+    "identities",
+    "user",
+    "account"
+  ],
+  "author": "Eduardo Munoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgustav/Cogniter/issues"
+  },
+  "homepage": "https://github.com/cgustav/Cogniter#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.11",
+    "aws-sdk": "^2.449.0",
+    "node-fetch": "^2.5.0"
+  }
+}
